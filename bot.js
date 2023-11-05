@@ -12,7 +12,7 @@ for (const file of commandFiles) {
 }
 
 client.on('ready', () => {
-  console.log(`${client.user.tag} olarak discord apisine bağlantı başarılı.`);
+  console.log(`${client.user.tag} Hazır`);
 });
 
 client.on('messageCreate', (message) => {
@@ -51,7 +51,7 @@ client.on('interactionCreate', async interaction => {
 
 
 client.on('guildMemberAdd', member => {
-  const hesapOlusturmaTarihi = member.user.createdAt; // Kullanıcının hesap oluşturma tarihi
+  const hesapOlusturmaTarihi = member.user.createdAt;
   const olusturmaTarihi = new Date(hesapOlusturmaTarihi);
 
   // Türkçe tarih formatı oluşturma
