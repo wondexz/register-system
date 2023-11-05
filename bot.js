@@ -54,7 +54,7 @@ client.on('guildMemberAdd', member => {
   const hesapOlusturmaTarihi = member.user.createdAt;
   const olusturmaTarihi = new Date(hesapOlusturmaTarihi);
 
-  // Türkçe tarih formatı oluşturma
+
   const gun = olusturmaTarihi.getDate().toString().padStart(2, '0');
   const ay = (olusturmaTarihi.getMonth() + 1).toString().padStart(2, '0');
   const yil = olusturmaTarihi.getFullYear();
