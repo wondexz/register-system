@@ -1,12 +1,12 @@
 {
-    "token":"",
-    "prefix":"",
-    "owner":"",
-    "kayit_kanali":"",
-    "kayit_sorumlusu":"",
-    "uye_rol":"",
-    "booster_rol":"",
-    "log":"",
-    "footer":"",
-    "footer_icon":""
+    "token":"Botunuzun tokenini girin.",
+    "prefix":"Botunuzun prefixini girin.",
+    "owner":"Kendi ID'nizi girin.",
+    "kayit_kanali":"Bir kullanıcı sunucuya girdiğinde mesaj atılacak kanal ID'si.",
+    "kayit_sorumlusu":"Kayıt sorumlusu rolü ID'si.",
+    "uye_rol":"Üye rolünüzün ID'sini yazın.",
+    "booster_rol":"Sunucunuzdaki booster rolünün idsini yazın.",
+    "log":"Log kanalının ID'sini yazın.",
+    "footer":"Atılan embed mesajın footer kısmında yazacak yer.",
+    "footer_icon":"footer profil urlsi"
 }
